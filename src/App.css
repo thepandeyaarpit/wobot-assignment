@@ -1,0 +1,137 @@
+
+body{
+  background-color: rgb(245, 245, 245);
+  padding: 50px;
+  /* margin: auto; */
+}
+.App {
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login_container{
+  background-color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  width: 30%;
+  padding: 30px 0;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.heading{
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0 15px;
+  text-align: center;
+}
+.subtitle, .subtitle_extra{
+  font-size: 13px;
+  /* padding-bottom: -20px; */
+  color: rgb(49, 49, 49);
+  text-align: center;
+}
+.subtitle_extra{
+  margin-top: -3%;
+}
+.from_login{
+  margin: 0 8%;
+}
+.border_part{
+  margin-top: 2%;
+}
+.label{
+  position: relative;
+  font-size: 13px;
+  width: 100%;
+  font-weight: 500;
+  /* margin-top: 5%; */
+}
+.input_box{
+  width: 98%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid rgb(196, 196, 196);
+  margin: 5px 0;
+}
+.select_box{
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border: 1px solid rgb(196, 196, 196);
+}
+.size{
+  border: none;
+  background-color: rgb(231, 229, 229);
+  font-size: 12px;
+  height: 20px;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.size:hover{
+  background-color: rgb(18, 37, 124);
+  color: #fff;
+}
+.button{
+  height: 30px;
+  width: 100%;
+  background-color: rgb(18, 37, 124);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.button:hover{
+  background-color: rgb(8, 19, 68);
+  cursor: pointer;
+}
+footer{
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 40%;
+
+}
+.cmpny_size {
+  background-color: rgb(18, 37, 124);
+}
