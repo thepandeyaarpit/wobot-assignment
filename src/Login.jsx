@@ -4,7 +4,6 @@ const Login = () => {
     const [colorValue, setColorValue] = useState('size');
 
     const changeStyle = () => {
-        console.log("you just clicked");
         setColorValue("cmpny_size");
       };
 
